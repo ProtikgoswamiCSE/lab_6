@@ -38,12 +38,13 @@ class MyHomePage extends StatelessWidget {
                   style: TextStyle(color: Colors.white, fontSize: 24)),
             ),
             ListTile(
-              leading: Icon(Icons.home),
+              leading: Icon(Icons.lock_clock_outlined),
               title: Text("Home"),
             ),
             ListTile(
               leading: Icon(Icons.settings),
-              title: Text("Settings"),
+              title: Text("Recent"),
+              onTap: () {},
             ),
           ],
         ),
